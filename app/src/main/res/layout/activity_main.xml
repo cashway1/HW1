@@ -17,6 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints="Some Text Here"
+        android:text="Sometext here"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="30dp" />
@@ -26,14 +27,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="30dp" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Switch"
+        android:text="WOW"
+        android:thumbTint="#0ADFD8"
+        android:trackTint="#4CC51F"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="89dp" />
 
